@@ -1,8 +1,8 @@
 package com.customer.consumer.service;
 
-import com.customer.publisher.domain.CustomerRequest;
+import com.customer.publisher.kafka.dto.CustomerDto;
 
 public interface ConsumerService {
-	void save(CustomerRequest customerRequest);
+	void save(CustomerDto customerDto);
 
 }

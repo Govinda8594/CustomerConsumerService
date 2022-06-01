@@ -1,4 +1,4 @@
-package com.customer.publisher.domain;
+package com.customer.consumer.domain;
 
 import java.util.Objects;
 

@@ -12,13 +12,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-
+import com.customer.consumer.domain.AddressRequest;
+import com.customer.consumer.domain.CustomerRequest;
+import com.customer.consumer.domain.CustomerRequest.CustomerStatusEnum;
 import com.customer.consumer.repository.AddressRepository;
 import com.customer.consumer.repository.CustomerRepository;
 import com.customer.consumer.service.ConsumerService;
-import com.customer.publisher.domain.AddressRequest;
-import com.customer.publisher.domain.CustomerRequest;
-import com.customer.publisher.domain.CustomerRequest.CustomerStatusEnum;
 
 @SpringBootTest
 class CustomerConsumerserviceApplicationTests {
